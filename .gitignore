@@ -1,0 +1,18 @@
+# Ignorar o ambiente virtual
+nome_do_ambiente/
+
+# Ignorar o arquivo requirements.txt (caso queira ignorá-lo)
+requirements.txt
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de compilação Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar configurações do editor (VSCode, PyCharm, etc.)
+.vscode/
+.idea/

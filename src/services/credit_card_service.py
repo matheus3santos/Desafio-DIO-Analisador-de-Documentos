@@ -5,7 +5,7 @@ from utils.Config import Config
 
 def analize_credit_card(card_url):
 
-        credential = AzureKeyCredential(Config.API_KEY)
+        credential = AzureKeyCredential(Config.KEY)
         
         document_Client = DocumentIntelligenceClient(Config.ENDPOINT, credential)
         
