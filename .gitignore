@@ -5,7 +5,7 @@ nome_do_ambiente/
 requirements.txt
 
 # Ignorar arquivo env
-.env
+src/.env
 
 # Ignorar arquivos do sistema
 .DS_Store
